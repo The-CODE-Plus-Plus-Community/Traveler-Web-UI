@@ -90,21 +90,37 @@ nav{
 }
 .landing-buttons{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     align-items: center;
-    margin: 0px 70px;
+    margin: 0px 187px;
     background-color: transparent;
-    padding : 5px 0px;
+    padding : 9px 0px;
     border: 1px solid white;
     border-radius: 10px;
 }
-.btn1,.btn2{
-    height: 2rem;
+.landing-input{
+    font-family: fontawesome;
+    padding: 10px 5px;
     width: 30%;
-    margin: 0px 10px;
+    letter-spacing: 1px;
+    border-radius: 8px;
+    border: none;
+    font-size: 16px;
+    margin: 0px -10px 0px 25px;
 }
-.btn3{
+.inp2{
+    width: 28%;
+}
+.inp3{
     width: 20%;
-    margin: 0px 10px;
-    height: 2rem;
+}
+.search-icon{
+    width: 10%;
+    text-align: center;
+}
+.search-btn{
+    border: none;
+    padding: 8px;
+    border-radius: 8px;
+    background-color: blue;
 }
