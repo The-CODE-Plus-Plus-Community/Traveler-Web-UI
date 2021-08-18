@@ -1,126 +1,243 @@
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
-#home{
-    height: 100vh;
-    background: url(../images/home.jpg);
-    background-size: cover;
-    background-position: bottom;
-    color: white;   
-    opacity: 0.9;
+#home {
+  height: 100vh;
+  background: url(../images/home.jpg);
+  background-size: cover;
+  background-position: bottom;
+  color: white;
+  opacity: 0.9;
 }
 
-nav{
-    display: flex;
-    justify-content: space-between;
-    flex: 1 1 1;
+nav {
+  display: flex;
+  justify-content: space-between;
+  flex: 1 1 1;
 }
-.nav{
-    min-height: 8vh;
+.nav {
+  min-height: 8vh;
 }
-.logo img{
-    width: 150px;
-    /* background-color: pink; */
+.logo img {
+  width: 150px;
+  /* background-color: pink; */
 }
-.nav-items{
-    display: flex;
-    /* background-color: yellow; */
-    align-items: center;
-    width: 33.33% ;
-    justify-content: space-between;
+.nav-items {
+  display: flex;
+  /* background-color: yellow; */
+  align-items: center;
+  width: 33.33%;
+  justify-content: space-between;
 }
-.logo{
-    display: flex;
-    align-items: center;
-    /* background-color: yellow; */
-    padding: 5px 20px;
-    width: 33.33%;
-    
+.logo {
+  display: flex;
+  align-items: center;
+  /* background-color: yellow; */
+  padding: 5px 20px;
+  width: 33.33%;
 }
-.logo h3{
-    margin-left: -92px;
-    font-size: 1.5rem;
+.logo h3 {
+  margin-left: -92px;
+  font-size: 1.5rem;
 }
-.logIn{
-    display: flex;
-    justify-content: flex-end;
-    align-items: center;
-    /* background-color: yellow; */
-    width: 33.33%;
-    padding: 20px;
+.logIn {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  /* background-color: yellow; */
+  width: 33.33%;
+  padding: 20px;
 }
-.log{
-    margin: 0 10px;
-    border: none;
-    background-color: transparent;
-    color: white;
-    font-size: 16px;
-    margin-right: 20px ;
+.log {
+  margin: 0 10px;
+  border: none;
+  background-color: transparent;
+  color: white;
+  font-size: 16px;
+  margin-right: 20px;
 }
-.nav-items a{
-    text-decoration: none;
-    color: white;
-    font-size: 20px;
+.nav-items a {
+  text-decoration: none;
+  color: white;
+  font-size: 20px;
 }
-.nav-items li{
-    list-style-type: none;
+.nav-items li {
+  list-style-type: none;
 }
 .sign {
-    border-radius: 13px;
-    border: 2px solid blue;
-    padding: 10px;
-    background-color: blue;
-    color: white;
+  border-radius: 13px;
+  border: 2px solid blue;
+  padding: 10px;
+  background-color: blue;
+  color: white;
 }
 
-.landing{
-    /* background-color: yellow; */
-    height: 60%;
+.landing {
+  /* background-color: yellow; */
+  height: 60%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-size: 1.8rem;
+  letter-spacing: 0.5px;
+}
+.landing h1 {
+  padding-left: 20px;
+  margin-top: 20px;
+}
+.landing-buttons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px 187px;
+  background-color: transparent;
+  padding: 9px 0px;
+  border: 1px solid white;
+  border-radius: 10px;
+}
+.landing-input {
+  font-family: fontawesome;
+  padding: 10px 5px;
+  width: 30%;
+  letter-spacing: 1px;
+  border-radius: 8px;
+  border: none;
+  font-size: 16px;
+  margin: 0px -10px 0px 25px;
+}
+.inp2 {
+  width: 28%;
+}
+.inp3 {
+  width: 20%;
+}
+.search-icon {
+  width: 10%;
+  text-align: center;
+}
+.search-btn {
+  border: none;
+  padding: 8px;
+  border-radius: 8px;
+  background-color: blue;
+}
+.offer {
+  min-height: 500px;
+  width: 100%;
+  /* border: 2px solid red; */
+  display: flex;
+  justify-content: center;
+}
+.exclusive {
+  max-width: 80%;
+  max-height: 80%;
+  margin: 6% 0%;
+  /* border: 2px solid green; */
+  display: flex;
+}
+.off-img {
+  margin: 0 10px;
+  width: 50%;
+  height: 100%; 
+  /* border: 2px solid yellow; */
+}
+.off-img img{
+    width: 95%;
+    height: 510px;
+}
+.off-content {
+  /* margin-right: 60px; */
+  width: 50%;
+  height: 100%;
+  /* border: 2px solid yellow; */
+  text-align: left;
+  padding: 10px;
+  line-height: 40px;
+}
+.off-about{
+    padding-top: 20px;
+    line-height: 28px;
+    padding-right: 80px;
+    padding-bottom: 5px;
+}
+.off-txt{
+    letter-spacing: 3px;
+    color: darkorange;
+}
+.stay{
+    font-size: 25px;
+}
+.emptystar{
+    font-size: 23px;
+    padding: 1px;
+    color: gray;
+}
+.off-book{
     display: flex;
-    justify-content: center;
-    align-items: center;
-    font-size: 1.8rem;
-    letter-spacing: 0.5px;
+    padding: 3px
 }
-.landing h1{
-    padding-left: 20px;
-    margin-top: 20px;
+.off-book p{
+    padding-left: 80px;
+    font-size: 1.2rem;
 }
-.landing-buttons{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    margin: 0px 187px;
-    background-color: transparent;
-    padding : 9px 0px;
-    border: 1px solid white;
-    border-radius: 10px;
+.off-book button{
+    width: 130px;
+    border-radius: 2px;
+    border : none;
+    background-color: darkorange;
 }
-.landing-input{
-    font-family: fontawesome;
-    padding: 10px 5px;
-    width: 30%;
-    letter-spacing: 1px;
-    border-radius: 8px;
-    border: none;
-    font-size: 16px;
-    margin: 0px -10px 0px 25px;
+#services{
+  height: 400px;
+  width: 97%;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  grid-template-rows: 400px;
+  /* border: 2px solid red; */
+  gap: 15px 40px;
+  justify-content: space-around;
+  align-items: center;
+
 }
-.inp2{
-    width: 28%;
+#services>div{
+  height: 90%;
+  /* border: 2px solid yellow; */
+   margin: 30px; 
 }
-.inp3{
-    width: 20%;
+.num11{
+  width: 100%;
+  height: 70%;
+  /* border: 2px solid blue; */
+  display: flex;
+  justify-content: center;
 }
-.search-icon{
-    width: 10%;
-    text-align: center;
+.num22{
+  width: 100%;
+  height: 30%;
+  /* border: 2px solid blue; */
 }
-.search-btn{
-    border: none;
-    padding: 8px;
-    border-radius: 8px;
-    background-color: blue;
+.box1 img{
+  width: 80%;
+  height: 100%; 
+}
+.box2,.box4,.box6{
+  text-align: center;
+  padding: 20px;
+}
+.box3 img{
+  height: 100%;
+  width: auto;
+}
+.box5 img{
+  height: 100%;
+  width: 80%;
+}
+#services-head h3{
+  color: orange;
+}
+#services-head{
+  padding: 10px 20px 40px 10px;
+  letter-spacing: 4px;
+  line-height: 50px;
 }
